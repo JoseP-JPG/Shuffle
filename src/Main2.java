@@ -33,13 +33,14 @@ public class Main2 {
             int number=division;
             if(j==numberShufflers)
                 number=i-divisionSum;
-            Shuffler2 shuffle=new Shuffler(baralho,j,number);
+            Shuffler2 shuffle=new Shuffler2(baralho,j,number);
             shuffle.start();
             divisionSum=divisionSum+division;
         }
         long end = System.currentTimeMillis();
-        System.out.println("Elapsed Time in milli seconds: "+(end-start));
-        System.out.println("---------------------------------------------------");
+        System.out.println("");
+        System.out.println("---------------------------------------------------\nElapsed Time in milli seconds: "+(end-start)+"\n---------------------------------------------------");
+        System.out.println("");
 
     }
 }

@@ -6,7 +6,7 @@ public class Main {
         String [] baralho_numeros={"Ás","2","3","4","5","6","7","rainha","valete","rei"};
         String [] baralho_naipes={"copas","paus","ouros","espadas"};
         ArrayList<String> baralho=new ArrayList<>();
-        int numberShufflers=2;
+        int numberShufflers;
 
         Scanner myObj = new Scanner(System.in);
         System.out.println("How many shufflers?");

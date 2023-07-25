@@ -6,7 +6,7 @@ public class Main2 {
         String [] baralho_numeros={"Ás","2","3","4","5","6","7","rainha","valete","rei"};
         String [] baralho_naipes={"copas","paus","ouros","espadas"};
         ArrayList<String> baralho=new ArrayList<>();
-        int numberShufflers=2;
+        int numberShufflers;
 
         Scanner myObj = new Scanner(System.in);
         System.out.println("How many shufflers?");
@@ -38,9 +38,7 @@ public class Main2 {
             divisionSum=divisionSum+division;
         }
         long end = System.currentTimeMillis();
-        System.out.println("");
         System.out.println("---------------------------------------------------\nElapsed Time in milli seconds: "+(end-start)+"\n---------------------------------------------------");
-        System.out.println("");
 
     }
 }

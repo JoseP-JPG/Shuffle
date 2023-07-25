@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
         String [] baralho_numeros={"Ás","2","3","4","5","6","7","rainha","valete","rei"};
         String [] baralho_naipes={"copas","paus","ouros","espadas"};
@@ -33,7 +33,7 @@ public class Main {
             int number=division;
             if(j==numberShufflers)
                 number=i-divisionSum;
-            Shuffler shuffle=new Shuffler(baralho,j,number);
+            Shuffler2 shuffle=new Shuffler(baralho,j,number);
             shuffle.start();
             divisionSum=divisionSum+division;
         }

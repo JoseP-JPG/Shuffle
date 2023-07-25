@@ -48,9 +48,7 @@ public class Shuffler2 extends Thread{
         }
 
         synchronized (baralho) {
-            for (String s : baralho_temp) {
-                baralho.add(s);
-            }
+            baralho.addAll(baralho_temp);
             System.out.println("Shuffler " + i + " has reinserted the cards");
         }
         System.out.println("Shuffler " + i + " signing out");
